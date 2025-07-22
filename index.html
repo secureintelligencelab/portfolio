@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 text-center mb-4 mb-lg-0">
+          <img src="assets/images/profile.jpg" alt="Profile Picture" class="hero-img">
+        </div>
+        <div class="col-lg-6 order-lg-1 hero-content">
+          <h1 class="hero-title">Hi, I'm <span class="text-primary">Md Ashraf Uddin</span></h1>
+          <h3 class="hero-subtitle">I'm a <span class="typed-text">Computer Science Student</span></h3>
+          <p class="mb-4">Welcome to my portfolio! I'm passionate about technology and solving real-world problems through programming and innovation.</p>
+          <div class="d-flex">
+            <a href="#contact" class="btn btn-primary me-3 px-4 py-2">Contact Me</a>
+            <a href="#projects" class="btn btn-outline-primary px-4 py-2">My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="row">
+        <div class="col-lg-5 mb-4 mb-lg-0">
+          <img src="assets/images/about.jpg" alt="About Me" class="img-fluid about-img">
+        </div>
+        <div class="col-lg-7">
+          <h3 class="mb-3">Computer Science Student & Developer</h3>
+          <p class="about-text mb-4">
+            I am a computer science student with a passion for software development and problem-solving. My journey in the tech world began when I was in high school, and since then, I've been constantly learning and growing my skills in various programming languages and technologies.
+          </p>
+          <p class="about-text mb-4">
+            I enjoy building applications that make a positive impact and solve real-world problems. When I'm not coding, you can find me playing basketball, reading tech blogs, or participating in hackathons.
+          </p>
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <div class="info-item">
+                <span class="info-label">Name:</span> Md Ashraf Uddin
+              </div>
+              <div class="info-item">
+                <span class="info-label">Email:</span> ashraf.uddin@cihe.edu.au
+              </div>
+              <div class="info-item">
+                <span class="info-label">Birthday:</span> October XX, 19XX
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="info-item">
+                <span class="info-label">Location:</span> New York, USA
+              </div>
+              <div class="info-item">
+                <span class="info-label">Study:</span> XYZ University
+              </div>
+              <div class="info-item">
+                <span class="info-label">Degree:</span> B.S. Computer Science and Engineering
+              </div>
+            </div>
+          </div>
+          <a href="assets/resume.pdf" class="btn btn-primary px-4 py-2" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>HTML/CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>JavaScript</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 85%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>React</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Node.js</span>
+              <span>70%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 70%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Python</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Java</span>
+              <span>75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 75%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>SQL</span>
+              <span>65%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 65%;"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-name">
+              <span>Git/GitHub</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 85%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Experience Section -->
+  <section id="education" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title">Education & Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2022 - Present</div>
+            <h4 class="timeline-title">Bachelor of Science in Computer Science</h4>
+            <div class="timeline-subtitle">XYZ University</div>
+            <p class="timeline-desc">Currently pursuing my degree with a focus on artificial intelligence and web development. Maintaining a 3.8 GPA.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">Summer 2023</div>
+            <h4 class="timeline-title">Software Development Intern</h4>
+            <div class="timeline-subtitle">Tech Innovations Inc.</div>
+            <p class="timeline-desc">Developed and maintained web applications using React and Node.js. Collaborated with a team of developers to implement new features.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2018 - 2022</div>
+            <h4 class="timeline-title">High School Diploma</h4>
+            <div class="timeline-subtitle">ABC High School</div>
+            <p class="timeline-desc">Graduated with honors. Participated in the robotics club and won the regional science competition.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <div class="timeline-date">2021 - 2022</div>
+            <h4 class="timeline-title">Volunteer Web Developer</h4>
+            <div class="timeline-subtitle">Local Community Center</div>
+            <p class="timeline-desc">Redesigned the community center's website, improving user experience and mobile responsiveness.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="assets/images/project1.jpg" alt="Project 1" class="project-img">
+            <div class="project-content">
+              <div class="project-category">Web Development</div>
+              <h4 class="project-title">E-commerce Website</h4>
+              <p class="project-desc">A fully responsive e-commerce website with shopping cart functionality and payment integration.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">React</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="assets/images/project2.jpg" alt="Project 2" class="project-img">
+            <div class="project-content">
+              <div class="project-category">Mobile App</div>
+              <h4 class="project-title">Fitness Tracker</h4>
+              <p class="project-desc">A mobile application that helps users track their workouts, set goals, and monitor progress.</p>
+              <div class="project-tags">
+                <span class="tag">React Native</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <img src="assets/images/project3.jpg" alt="Project 3" class="project-img">
+            <div class="project-content">
+              <div class="project-category">Data Science</div>
+              <h4 class="project-title">Stock Price Predictor</h4>
+              <p class="project-desc">A machine learning model that predicts stock prices based on historical data and market trends.</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Scikit-learn</span>
+                <span class="tag">TensorFlow</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-white">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h5>Location</h5>
+                <p>New York, NY, USA</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h5>Email</h5>
+                <p>ashraf.uddin@cihe.edu.au</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h5>Phone</h5>
+                <p>+123 456 7890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <form action="#" method="POST" id="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" placeholder="Your Message" rows="5" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="social-links">
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <p>&copy; 2025 Md Ashraf Uddin. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <div class="scroll-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
